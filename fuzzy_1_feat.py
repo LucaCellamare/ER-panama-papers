@@ -11,7 +11,7 @@ from functools import partial
 import math
 from operator import itemgetter
 
-#fuzzy string matching on name(4) address (2) telephone no prefix(2) mail before @
+#fuzzy string matching on name,address,telephone,mail
 def timeit(method):
     """
     Standard Python decorator that measures the execution time of a method;
